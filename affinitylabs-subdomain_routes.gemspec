@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "README.textile",
     "Rakefile",
     "VERSION.yml",
+    "affinitylabs-subdomain_routes.gemspec",
     "history.txt",
     "lib/subdomain_routes.rb",
     "lib/subdomain_routes/assertions.rb",
@@ -48,8 +49,7 @@ Gem::Specification.new do |s|
     "spec/spec_helper.rb",
     "spec/test_unit_matcher.rb",
     "spec/url_writing_spec.rb",
-    "spec/validations_spec.rb",
-    "subdomain_routes.gemspec"
+    "spec/validations_spec.rb"
   ]
   s.homepage = %q{http://github.com/affinitylabs/subdomain_routes}
   s.require_paths = ["lib"]
