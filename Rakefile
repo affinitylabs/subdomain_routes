@@ -5,7 +5,7 @@ require 'yaml'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "subdomain_routes"
+    gem.name = "affinitylabs-subdomain_routes"
     gem.summary = %Q{A Rails library for incorporating subdomains into route generation and recognition.}
     gem.description = <<-EOF
       SubdomainRoutes add subdomain conditions to the Rails routing system. Routes may be restricted to
@@ -15,7 +15,7 @@ begin
       the current request. Model-based subdomain routes can also be defined.
     EOF
     gem.email = "mdholling@gmail.com"
-    gem.homepage = "http://github.com/mholling/subdomain_routes"
+    gem.homepage = "http://github.com/affinitylabs/subdomain_routes"
     gem.authors = ["Matthew Hollingworth"]
     gem.add_dependency 'actionpack', ">= 2.2.1"
     gem.has_rdoc = false
